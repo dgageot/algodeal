@@ -1,0 +1,72 @@
+
+
+<div id="platform">
+	<a class="backward"></a>
+	<div class="panes">
+		<div>
+			<h3>Authoring quant strategies with Algodeal</h3>
+			<img src="media_2.2.1-SNAPSHOT/platform/platform.png" width="614" height="218" />
+			<p>Algodeal offers a complete infrastructure for designing, backtesting and analyzing quant strategies.</p>
+			<p>The following slides will introduce you to our system.</p>
+		</div>
+
+		<div>
+			<h3>Designing with Market Runner</h3>
+			<img src="media_2.2.1-SNAPSHOT/platform/marketrunner.png" width="495" height="220" />
+			<p>Market Runner is a development environment that helps you write systematic quant strategies.</p>
+		</div>
+
+		<div>
+			<h3>Understanding market data</h3>
+			<img src="media_2.2.1-SNAPSHOT/platform/market_data.png" width="625" height="210" />
+			<p>We provide historical market data so that you backtest your strategies in realistic conditions.</p>
+			<p>Market data is constantly updated and enriched on our system.
+			   We have over ten years of futures data. Cleaned, rolled and adjusted. Other asset classes are coming soon.</p>
+		</div>
+
+		<div>
+			<h3>Simulating on our grid</h3>
+			<img src="media_2.2.1-SNAPSHOT/platform/servers.png" width="460" height="170" />
+			<p>With the push of a button, run your strategy on our grid of servers. It will be backtested against historical market data and its performance evaluated.</p>
+			<p>We offer the unique capability of running your strategy with dozens of combinations of parameters. The corresponding backtests will be massively parallelized on hundreds of CPUs.</p>
+		</div>
+
+		<div>
+			<h3>Benchmarking your strategies</h3>
+			<img src="media_2.2.1-SNAPSHOT/platform/benchmark.png" width="620" height="220" />
+			<p>A number of metrics are computed after each backtest of your strategies. They are aggregated for you in a detailed scorecard.</p>
+			<p>Tune your strategies, make sure they are resilient... Algodeal will allocate money to the best strategies!</p>
+		</div>
+	</div>
+	<a class="forward"></a>
+	<div class="clearing"></div>
+
+	<table class="nav">
+		<tr>
+			<td>
+				<img src="media_2.2.1-SNAPSHOT/platform/platform_small.png"/>
+				<p>Author</p>
+			</td>
+			<td>
+				<img src="media_2.2.1-SNAPSHOT/platform/marketrunner_small.png"/>
+				<p>Design</p>
+			</td>
+			<td>
+				<img src="media_2.2.1-SNAPSHOT/platform/market_data_small.png"/>
+				<p>Feed</p>
+			</td>
+			<td>
+				<img src="media_2.2.1-SNAPSHOT/platform/servers_small.png"/>
+				<p>Simulate</p>
+			</td>
+			<td>
+				<img src="media_2.2.1-SNAPSHOT/platform/benchmark_small.png"/>
+				<p>Benchmark</p>
+			</td>
+		</tr>
+	</table>
+</div>
+
+<script type="text/javascript">
+$("#platform .nav").tabs("#platform .panes > div", {tabs: 'td',rotate: false}).slideshow();
+</script>
